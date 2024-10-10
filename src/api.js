@@ -3,7 +3,7 @@ import express from 'express';
 import data from './data.js'
 import swaggerUi from 'swagger-ui-express'
 import swaggerDocument from './swagger.js'
-import cors from 'cors'
+// import cors from 'cors'
 
 // Instanciando API
 const api = express();
@@ -12,9 +12,9 @@ const api = express();
 api.set('json spaces', 2)
 
 // Liberando acesso externo
-api.use(cors({
-  origin: '*'
-}))
+// api.use(cors({
+//   origin: '*'
+// }))
 
 
 // Rota para obter todos os alunos
