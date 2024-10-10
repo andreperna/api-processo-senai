@@ -5,7 +5,7 @@
     "description": "API fake para utilização no Processo Seletivo do SENAI",
     "version": "1.0.0"
   },
-  "host": "api-processo-senai.onrender.com",
+  "host": "api.senaima.com.br",
   "basePath": "/",
   "schemes": [
     "https"

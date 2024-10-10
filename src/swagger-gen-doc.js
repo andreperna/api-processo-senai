@@ -5,7 +5,8 @@ const doc = {
     title: 'API - Gestão Escolar',
     description: 'API fake para utilização no Processo Seletivo do SENAI'
   },
-  host: 'api-processo-senai.onrender.com'
+  host: 'api.senaima.com.br',
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';

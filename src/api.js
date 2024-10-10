@@ -3,7 +3,7 @@ import express from 'express';
 import data from './data.js'
 import swaggerUi from 'swagger-ui-express'
 import swaggerDocument from './swagger.js'
-// import cors from 'cors'
+import cors from 'cors'
 
 // Instanciando API
 const api = express();
@@ -12,10 +12,12 @@ const api = express();
 api.set('json spaces', 2)
 
 // Liberando acesso externo
-// api.use(cors({
-//   origin: '*'
-// }))
+api.use(cors({
+  origin: '*'
+}))
 
+// Estaticos
+api.use('/public', express.static('./public'))
 
 // Rota para obter todos os alunos
 api.get('/alunos', async (req, res) => {
@@ -37,7 +39,7 @@ api.get('/professores', async (req, res) => {
 
 
 // Rota de Documentação
-api.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
+api.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {customCssUrl: '/public/swagger-custom.css'}))
 
 
 export default api;

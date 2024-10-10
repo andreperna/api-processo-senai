@@ -1,0 +1,11 @@
+
+.topbar-wrapper::before {
+    font-size: 2rem;
+    color: whitesmoke;
+    content: "Processo Seletivo SENAI";
+}
+
+svg {
+    display: none;
+}
+
