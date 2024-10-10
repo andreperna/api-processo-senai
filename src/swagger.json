@@ -1,0 +1,41 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API - Gestão Escolar",
+    "description": "API fake para utilização no Processo Seletivo do SENAI",
+    "version": "1.0.0"
+  },
+  "host": "api.senaima.com.br",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/alunos": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/professores": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  }
+}

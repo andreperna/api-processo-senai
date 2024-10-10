@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node .",
+    "swagger-gen-doc": "node src/swagger-gen-doc.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
   }
 }
