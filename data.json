@@ -1,0 +1,32 @@
+{
+    "alunos": [
+      { "id": 1, "nome": "Alice Silva", "idade": 17, "curso": "Engenharia de Computação", "nota": "A" },
+      { "id": 2, "nome": "Bruno Costa", "idade": 16, "curso": "Design Digital", "nota": "B" },
+      { "id": 3, "nome": "Carla Santos", "idade": 18, "curso": "Engenharia de Software", "nota": "A" },
+      { "id": 4, "nome": "Diego Oliveira", "idade": 17, "curso": "Eletrônica", "nota": "C" },
+      { "id": 5, "nome": "Elisa Pereira", "idade": 16, "curso": "Redes de Computadores", "nota": "B" },
+      { "id": 6, "nome": "Fernanda Lima", "idade": 17, "curso": "Sistemas de Informação", "nota": "A" },
+      { "id": 7, "nome": "Gustavo Nunes", "idade": 18, "curso": "Engenharia Elétrica", "nota": "B" },
+      { "id": 8, "nome": "Helena Costa", "idade": 16, "curso": "Engenharia Civil", "nota": "A" },
+      { "id": 9, "nome": "Igor Mendes", "idade": 17, "curso": "Engenharia Mecânica", "nota": "C" },
+      { "id": 10, "nome": "Julia Souza", "idade": 16, "curso": "Engenharia de Controle e Automação", "nota": "A" },
+      { "id": 11, "nome": "Lucas Carvalho", "idade": 18, "curso": "Engenharia de Produção", "nota": "B" },
+      { "id": 12, "nome": "Mariana Oliveira", "idade": 17, "curso": "Ciência da Computação", "nota": "A" },
+      { "id": 13, "nome": "Nicolas Martins", "idade": 18, "curso": "Análise e Desenvolvimento de Sistemas", "nota": "C" },
+      { "id": 14, "nome": "Olivia Ferreira", "idade": 17, "curso": "Tecnologia da Informação", "nota": "B" },
+      { "id": 15, "nome": "Pedro Silva", "idade": 16, "curso": "Engenharia de Software", "nota": "A" }
+    ],
+    "professores": [
+      { "id": 1, "nome": "João Almeida", "disciplina": "Matemática", "formacao": "Mestre em Matemática" },
+      { "id": 2, "nome": "Maria Souza", "disciplina": "Física", "formacao": "Doutora em Física" },
+      { "id": 3, "nome": "Carlos Mendes", "disciplina": "Química", "formacao": "Mestre em Química" },
+      { "id": 4, "nome": "Ana Lima", "disciplina": "Engenharia de Software", "formacao": "Doutora em Engenharia de Software" },
+      { "id": 5, "nome": "Roberto Silva", "disciplina": "Design Digital", "formacao": "Especialista em Design Digital" },
+      { "id": 6, "nome": "Sérgio Freitas", "disciplina": "Engenharia Elétrica", "formacao": "Doutor em Engenharia Elétrica" },
+      { "id": 7, "nome": "Patrícia Gomes", "disciplina": "Engenharia Civil", "formacao": "Mestre em Engenharia Civil" },
+      { "id": 8, "nome": "Ricardo Fernandes", "disciplina": "Engenharia Mecânica", "formacao": "Doutor em Engenharia Mecânica" },
+      { "id": 9, "nome": "Laura Rocha", "disciplina": "Ciência da Computação", "formacao": "Doutora em Ciência da Computação" },
+      { "id": 10, "nome": "Fernando Teixeira", "disciplina": "Tecnologia da Informação", "formacao": "Especialista em Tecnologia da Informação" }
+    ]
+  }
+  
